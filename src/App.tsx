@@ -1,15 +1,7 @@
-import './App.css';
-import { ButtonCustom } from './gatous-app/components/ButtonCustom';
+import { AppRoute } from './gatous-app/routes/AppRoute';
 
 function App() {
-  return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>Hello la hembra</p>
-        <ButtonCustom />
-      </header>
-    </div>
-  );
+  return <AppRoute />;
 }
 
 export default App;
