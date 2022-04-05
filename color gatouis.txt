@@ -1,2 +1,2 @@
-PRIMARY: #f4d7db
-text:#020101
+PRIMARY: #d07ea7
+text:#8c9399

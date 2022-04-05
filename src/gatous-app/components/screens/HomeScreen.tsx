@@ -1,9 +1,10 @@
-import { Container } from 'react-bootstrap';
-
 export const HomeScreen = () => {
   return (
-    <Container>
-      <h1>Home Screen</h1>
-    </Container>
+    <section className='section py-5'>
+      <div className='d-block text-center py-5'>
+        <h1 className='display-1 fw-bold'>Gatous Bakery</h1>
+        <span>Pastelería en Monterrey</span>
+      </div>
+    </section>
   );
 };

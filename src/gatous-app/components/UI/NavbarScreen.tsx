@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const NavbarScreen = () => {
   return (
-    <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
+    <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
       <Container>
         <Navbar.Brand href='#home'>Gatous-bakery</Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
@@ -17,6 +17,9 @@ export const NavbarScreen = () => {
             </NavLink>
             <NavLink className='nav-link' to='/pasteles'>
               Pasteles
+            </NavLink>
+            <NavLink className='nav-link' to='/temporada'>
+              Pasteles Por Temporada
             </NavLink>
           </Nav>
           <Nav>
