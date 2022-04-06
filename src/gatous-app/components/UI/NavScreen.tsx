@@ -1,17 +1,40 @@
-import { Nav, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { BsClock, BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 
 export const NavScreen = () => {
   return (
     <>
-      <Nav
-        className='d-flex justify-content-around'
-        defaultActiveKey='/#'
-        as='ul'
-      >
+      <ul className='nav '>
+        <li className='nav-item '>
+          <a className='nav-link text-primary ' aria-current='page' href='#'>
+            <BsClock /> Lun - Dom 9:00 - 20:00
+          </a>
+        </li>
+        <li className='nav-item'>
+          <a
+            className='nav-link text-primary'
+            href='https://api.whatsapp.com/send?phone=+528127688513'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
+            <BsWhatsapp /> Whatsapp
+          </a>
+        </li>
+        <li className='nav-item'>
+          <a className='nav-link text-primary' href='#'>
+            <BsInstagram /> Instagram
+          </a>
+        </li>
+        <li className='nav-item'>
+          <a className='nav-link text-primary '>
+            <BsFacebook /> Facebook
+          </a>
+        </li>
+      </ul>
+
+      {/* <nav className='d-flex justify-content-around'>
         <Nav.Item as='li'>
           <Nav.Link href='/#'>
-            <BsClock /> Lun - Sab 7am/6pm. Dom 8am/4pm
+            <BsClock /> Lun - Dom 9:00 - 20:00
           </Nav.Link>
         </Nav.Item>
 
@@ -60,7 +83,7 @@ export const NavScreen = () => {
             </Nav.Link>
           </Nav.Item>
         </OverlayTrigger>
-      </Nav>
+      </nav> */}
     </>
   );
 };

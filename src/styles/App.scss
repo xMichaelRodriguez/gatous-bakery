@@ -1,0 +1,32 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+@import './theme.scss';
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+// Then add additional custom code here
+
+.section {
+  width: 100%;
+  height: 405px;
+  background-position: center;
+  background-image: url('../imgs/banner-gatous.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.showAndHide {
+  display: block;
+}
+
+.hideAndShow {
+  display: none;
+}
+@media (max-width: 700px) {
+  .hideAndShow {
+    display: block;
+  }
+  .showAndHide {
+    display: none;
+  }
+}

@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { FooterComponent } from '../components/footer/FooterComponent';
 import { CakeScreen } from '../components/screens/CakeScreen';
@@ -16,7 +15,7 @@ export const AppRoute = () => {
         <NavScreen />
         <NavbarScreen />
 
-        <Container>
+        <div className='container-fluid '>
           <Switch>
             <Route path='/cakes' component={CakeScreen} />
             <Route path='/pasteles' component={PastelesScreen} />
@@ -25,7 +24,7 @@ export const AppRoute = () => {
             <Route path='/carrito' component={HomeScreen} />
             <Route path='/' component={HomeScreen} />
           </Switch>
-        </Container>
+        </div>
 
         <FooterComponent />
       </>
