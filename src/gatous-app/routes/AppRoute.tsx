@@ -15,7 +15,7 @@ export const AppRoute = () => {
         <NavScreen />
         <NavbarScreen />
 
-        <div className='container-fluid '>
+        <div className='container-fluid'>
           <Switch>
             <Route path='/cakes' component={CakeScreen} />
             <Route path='/pasteles' component={PastelesScreen} />

@@ -1,7 +1,7 @@
 export const BannerSection = () => {
   return (
     <>
-      <section className='container-fluid section  py-5 showAndHide'>
+      <section className=' section  py-5 showAndHide'>
         <div className='d-block text-center py-5 '></div>
       </section>
       <section className='container py-5 hideAndShow'>

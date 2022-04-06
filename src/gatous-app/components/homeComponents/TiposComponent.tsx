@@ -8,7 +8,7 @@ interface ICategory {
 export const TiposComponent = () => {
   return (
     <>
-      <h2 className='display-2 text-center fw-bold text-primary'>
+      <h2 className='display-2 text-center fw-bold text-primary '>
         <ins> Nuestras Categorias</ins>
       </h2>
       <div className='row row-cols-1 row-cols-md-2 g-4 py-3 text-primary'>

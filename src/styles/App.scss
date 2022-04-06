@@ -6,6 +6,8 @@
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 // Then add additional custom code here
+$secondary:$gray-500;
+
 
 .section {
   width: 100%;
@@ -22,6 +24,8 @@
 .hideAndShow {
   display: none;
 }
+
+
 @media (max-width: 700px) {
   .hideAndShow {
     display: block;

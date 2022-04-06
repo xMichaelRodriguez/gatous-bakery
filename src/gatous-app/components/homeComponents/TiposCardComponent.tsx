@@ -23,8 +23,8 @@ const RenderIcon = ({ icon }: { icon: string }) => {
 export const TiposCardComponent = (card: props): JSX.Element => {
   console.log(card);
   return (
-    <div className='col-lg-4 col-md-6'>
-      <div className='card border-primary shadow'>
+    <div className='col-lg-3 col-md-4 col-sm-6'>
+      <div className='card border-primary shadow bg-secondary'>
         <div className='card-body d-flex justify-content-center'>
           <RenderIcon icon={card.icon} />
         </div>
